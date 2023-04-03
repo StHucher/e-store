@@ -2,29 +2,28 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import Category from './components/Category';
-import { fetcher } from './fetcher';
+import { getCategories, getProducts } from './fetcher';
 
 
 function App() {
 
   const [categories, setCategories] = useState({errorMessage:'', data: []});
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState({errorMessage:'', data: []});
 
  React.useEffect(() => {
     const fetchData = async () => {
-      const responseObject = await fetcher("/categories");
+      const responseObject = await getCategories();
       setCategories(responseObject);
     }
     fetchData();
   }, [])
 
   const handleCategoryClick = (id) => {
-    fetch("http://localhost:3001/products?catId=" +id)
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-      setProducts(data)
-    })
+    const fetchData = async () => {
+      const responseObject = await getProducts(id);
+      setProducts(responseObject);
+    }
+    fetchData();
   }
 
   const renderCategories = () => {
@@ -34,7 +33,7 @@ function App() {
   }
 
   const renderProducts = () => {
-    return products.map(p => <div>{p.title}</div> )
+    return products.data.map(p => <div>{p.title}</div> )
   }
 
   return (
@@ -49,7 +48,8 @@ function App() {
         </nav>
 
         <article>
-          <h1>Products</h1>
+        { products.errorMessage && <div>Error: {products.errorMessage}</div>}
+          <h1>Products</h1>    
           { products && renderProducts() }
         </article>
         

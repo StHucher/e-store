@@ -1,6 +1,6 @@
 const BASE_URL = "http://localhost:3001";
 
-export const fetcher = async (url) => {
+const fetcher = async (url) => {
     let responseObject = { errorMessage: '', data: []};
 
     try {
@@ -13,5 +13,12 @@ export const fetcher = async (url) => {
         responseObject.errorMessage = err.message;
     }
     return responseObject;
-    
 };
+
+export const getCategories = () => {
+    return fetcher("/categories");
+}
+
+export const getProducts = (id) => {
+    return fetcher('/products?catId=' + id);
+}
