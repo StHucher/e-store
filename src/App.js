@@ -2,20 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import Category from './components/Category';
+import { fetcher } from './fetcher';
 
 
 function App() {
 
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState({errorMessage:'', data: []});
   const [products, setProducts] = useState([]);
 
  React.useEffect(() => {
-    fetch("http://localhost:3001/categories")
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-      setCategories(data)
-    })
+    const fetchData = async () => {
+      const responseObject = await fetcher("/categories");
+      setCategories(responseObject);
+    }
+    fetchData();
   }, [])
 
   const handleCategoryClick = (id) => {
@@ -28,7 +28,7 @@ function App() {
   }
 
   const renderCategories = () => {
-    return categories.map(c => 
+    return categories.data.map(c => 
       <Category key={c.id} id={c.id} title={c.title} onCategoryClick={() => handleCategoryClick(c.id)} />
       );
   }
@@ -44,11 +44,10 @@ function App() {
 
       <section>
         <nav>
-          {
-            categories &&  renderCategories()
-          }
-
+          { categories.errorMessage && <div>Error: {categories.errorMessage}</div>}
+          { categories.data &&  renderCategories() }
         </nav>
+
         <article>
           <h1>Products</h1>
           { products && renderProducts() }
