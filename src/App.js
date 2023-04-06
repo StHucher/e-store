@@ -3,6 +3,7 @@ import './App.css';
 import React, { useState } from 'react';
 import Category from './components/Category';
 import { getCategories, getProducts } from './fetcher';
+import CategoryProduct from './components/categoryProduct';
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
   }
 
   const renderProducts = () => {
-    return products.data.map(p => <div>{p.title}</div> )
+    return products.data.map(p =><CategoryProduct {...p}>{p.title}</CategoryProduct>);
+    
   }
 
   return (
@@ -47,11 +49,11 @@ function App() {
           { categories.data &&  renderCategories() }
         </nav>
 
-        <article>
+        <main>
         { products.errorMessage && <div>Error: {products.errorMessage}</div>}
           <h1>Products</h1>    
           { products && renderProducts() }
-        </article>
+        </main>
         
       </section>
 
