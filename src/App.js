@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Category from './components/Category';
 import { getCategories, getProducts } from './fetcher';
 import CategoryProduct from './components/categoryProduct';
+import { Link } from 'react-router-dom';
 
 
 function App() {
@@ -29,14 +30,12 @@ function App() {
 
   const renderCategories = () => {
     return categories.data.map(c => 
-      <Category key={c.id} id={c.id} title={c.title} onCategoryClick={() => handleCategoryClick(c.id)} />
-      );
+      <li key = {c.id}><Link to={`/categories/${c.id}`}>{c.title}</Link></li>
+    );
+      
   }
 
-  const renderProducts = () => {
-    return products.data.map(p =><CategoryProduct key={p.id} {...p}>{p.title}</CategoryProduct>);
-    
-  }
+  
 
   return (
     <>
@@ -46,13 +45,12 @@ function App() {
       <section>
         <nav>
           { categories.errorMessage && <div>Error: {categories.errorMessage}</div>}
-          { categories.data &&  renderCategories() }
+
+          <ul>{ categories.data &&  renderCategories() }</ul>
         </nav>
 
         <main>
-        { products.errorMessage && <div>Error: {products.errorMessage}</div>}
-          <h1>Products</h1>    
-          { products && renderProducts() }
+        
         </main>
         
       </section>
