@@ -13,7 +13,7 @@
             "image": "fridge1.jpg",
             "price": 579,
             "sku": "577318",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et sodales neque. Suspendisse tincidunt elit non hendrerit fringilla. Suspendisse venenatis quam vel enim posuere consequat. Mauris vel condimentum libero, iaculis.",
+            "description": "Curabitur posuere nisl ac orci egestas dapibus. Vivamus posuere dapibus augue mattis molestie. Morbi eget pulvinar purus. Nullam ultrices leo nec vehicula tincidunt. Phasellus placerat arcu quam, id porttitor urna accumsan tristique. Ut purus enim, interdum at urna eu, malesuada vulputate ligula. Sed quis elit a felis ullamcorper mollis. Donec quis enim ac libero pulvinar bibendum a vitae velit. Donec nunc ante, faucibus non dui eget, sollicitudin lobortis mauris. In non convallis turpis. Donec sit amet enim in erat vulputate varius. Suspendisse condimentum, leo vitae efficitur dapibus, dolor tellus volutpat nibh, tristique sollicitudin mauris nisi pellentesque felis. Mauris condimentum lectus arcu, id vestibulum lacus eleifend ac. Aenean consectetur sodales nisl, sed semper diam pretium a. Sed tristique est eleifend, convallis massa in, posuere lacus. Nam iaculis lectus eget nunc luctus bibendum non id metus. Sed at metus dui. Praesent gravida nisi suscipit malesuada posuere. Aliquam vel varius lacus. Etiam molestie.",
             "specs": {"dimensions": "177.5 x 54 x 54.5cm (H x W x D)", "capacity": "220 litres"},
             "features": ["No need to defrost with frost free technology", "Suitable for outbuilding"],
             "stock": 20
@@ -26,7 +26,7 @@
             "image": "fridge2.jpg",
             "price": 179,
             "sku": "287494",
-            "description": "Donec auctor interdum ex eu consectetur. Ut tempus, tortor vel vulputate imperdiet, leo orci venenatis lacus, sit amet elementum nibh dui in nulla. Proin accumsan vel odio a volutpat. Nunc",
+            "description": "Curabitur posuere nisl ac orci egestas dapibus. Vivamus posuere dapibus augue mattis molestie. Morbi eget pulvinar purus. Nullam ultrices leo nec vehicula tincidunt. Phasellus placerat arcu quam, id porttitor urna accumsan tristique. Ut purus enim, interdum at urna eu, malesuada vulputate ligula. Sed quis elit a felis ullamcorper mollis. Donec quis enim ac libero pulvinar bibendum a vitae velit. Donec nunc ante, faucibus non dui eget, sollicitudin lobortis mauris. In non convallis turpis. Donec sit amet enim in erat vulputate varius. Suspendisse condimentum, leo vitae efficitur dapibus, dolor tellus volutpat nibh, tristique sollicitudin mauris nisi pellentesque felis. Mauris condimentum lectus arcu, id vestibulum lacus eleifend ac. Aenean consectetur sodales nisl, sed semper diam pretium a. Sed tristique est eleifend, convallis massa in, posuere lacus. Nam iaculis lectus eget nunc luctus bibendum non id metus. Sed at metus dui. Praesent gravida nisi suscipit malesuada posuere. Aliquam vel varius lacus. Etiam molestie.",
             "specs": {"dimensions": "155 x 54 x 54.5cm (H x W x D)", "capacity": "150 litres"},
             "features": ["Fast freeze", "Sliding hinge"],
             "stock": 0
@@ -39,7 +39,7 @@
             "image": "fridge3.jpg",
             "price": 449,
             "sku": "287103",
-            "description": "Donec auctor interdum ex eu consectetur. Ut tempus, tortor vel vulputate imperdiet, leo orci venenatis lacus, sit amet elementum nibh dui in nulla. Proin accumsan vel odio a volutpat. Nunc",
+            "description": "Curabitur posuere nisl ac orci egestas dapibus. Vivamus posuere dapibus augue mattis molestie. Morbi eget pulvinar purus. Nullam ultrices leo nec vehicula tincidunt. Phasellus placerat arcu quam, id porttitor urna accumsan tristique. Ut purus enim, interdum at urna eu, malesuada vulputate ligula. Sed quis elit a felis ullamcorper mollis. Donec quis enim ac libero pulvinar bibendum a vitae velit. Donec nunc ante, faucibus non dui eget, sollicitudin lobortis mauris. In non convallis turpis. Donec sit amet enim in erat vulputate varius. Suspendisse condimentum, leo vitae efficitur dapibus, dolor tellus volutpat nibh, tristique sollicitudin mauris nisi pellentesque felis. Mauris condimentum lectus arcu, id vestibulum lacus eleifend ac. Aenean consectetur sodales nisl, sed semper diam pretium a. Sed tristique est eleifend, convallis massa in, posuere lacus. Nam iaculis lectus eget nunc luctus bibendum non id metus. Sed at metus dui. Praesent gravida nisi suscipit malesuada posuere. Aliquam vel varius lacus. Etiam molestie.",
             "specs": {"dimensions": "185 x 60 x 71cm (H x W x D)", "capacity": "250 litres"},
             "features": ["Water dispenser", "Food freshness"],
             "stock": 10
@@ -52,7 +52,7 @@
             "image": "fridge4.jpg",
             "price": 349,
             "sku": "784324",
-            "description": "Quisque eget libero ut sapien suscipit tristique nec vitae metus. Praesent bibendum eget tellus eu posuere. In porta efficitur tortor, sed venenatis eros. Nam eget erat risus. Nunc scelerisque eleifend.",
+            "description": "Curabitur posuere nisl ac orci egestas dapibus. Vivamus posuere dapibus augue mattis molestie. Morbi eget pulvinar purus. Nullam ultrices leo nec vehicula tincidunt. Phasellus placerat arcu quam, id porttitor urna accumsan tristique. Ut purus enim, interdum at urna eu, malesuada vulputate ligula. Sed quis elit a felis ullamcorper mollis. Donec quis enim ac libero pulvinar bibendum a vitae velit. Donec nunc ante, faucibus non dui eget, sollicitudin lobortis mauris. In non convallis turpis. Donec sit amet enim in erat vulputate varius. Suspendisse condimentum, leo vitae efficitur dapibus, dolor tellus volutpat nibh, tristique sollicitudin mauris nisi pellentesque felis. Mauris condimentum lectus arcu, id vestibulum lacus eleifend ac. Aenean consectetur sodales nisl, sed semper diam pretium a. Sed tristique est eleifend, convallis massa in, posuere lacus. Nam iaculis lectus eget nunc luctus bibendum non id metus. Sed at metus dui. Praesent gravida nisi suscipit malesuada posuere. Aliquam vel varius lacus. Etiam molestie.",
             "specs": {"dimensions": "165 x 54 x 55cm (H x W x D)", "capacity": "230 litres"},
             "features": ["Open door alarm", "No plumbing required"],
             "stock": 5
@@ -65,7 +65,7 @@
             "image": "fridge5.jpg",
             "price": 469,
             "sku": "670811",
-            "description": "Aliquam non enim nec lacus tempus ultricies sit amet sed mi. Etiam a urna at lorem blandit malesuada. Donec at nulla leo. Duis quis tellus nec diam dapibus tincidunt luctus.",
+            "description": "Curabitur posuere nisl ac orci egestas dapibus. Vivamus posuere dapibus augue mattis molestie. Morbi eget pulvinar purus. Nullam ultrices leo nec vehicula tincidunt. Phasellus placerat arcu quam, id porttitor urna accumsan tristique. Ut purus enim, interdum at urna eu, malesuada vulputate ligula. Sed quis elit a felis ullamcorper mollis. Donec quis enim ac libero pulvinar bibendum a vitae velit. Donec nunc ante, faucibus non dui eget, sollicitudin lobortis mauris. In non convallis turpis. Donec sit amet enim in erat vulputate varius. Suspendisse condimentum, leo vitae efficitur dapibus, dolor tellus volutpat nibh, tristique sollicitudin mauris nisi pellentesque felis. Mauris condimentum lectus arcu, id vestibulum lacus eleifend ac. Aenean consectetur sodales nisl, sed semper diam pretium a. Sed tristique est eleifend, convallis massa in, posuere lacus. Nam iaculis lectus eget nunc luctus bibendum non id metus. Sed at metus dui. Praesent gravida nisi suscipit malesuada posuere. Aliquam vel varius lacus. Etiam molestie.",
             "specs": {"dimensions": "185 x 55 x 60cm (H x W x D)", "capacity": "290 litres"},
             "features": ["Fast freeze", "Water dispenser"],
             "stock": 5
@@ -78,7 +78,7 @@
             "image": "tv1.jpg",
             "price": 469,
             "sku": "680711",
-            "description": "Suspendisse potenti. Etiam suscipit quam a consectetur pulvinar. Duis eu ligula nec lectus mollis scelerisque. Suspendisse facilisis nec lectus at pulvinar. Curabitur a tellus ex. Vivamus nec posuere sapien. Maecenas.",
+            "description": "Curabitur posuere nisl ac orci egestas dapibus. Vivamus posuere dapibus augue mattis molestie. Morbi eget pulvinar purus. Nullam ultrices leo nec vehicula tincidunt. Phasellus placerat arcu quam, id porttitor urna accumsan tristique. Ut purus enim, interdum at urna eu, malesuada vulputate ligula. Sed quis elit a felis ullamcorper mollis. Donec quis enim ac libero pulvinar bibendum a vitae velit. Donec nunc ante, faucibus non dui eget, sollicitudin lobortis mauris. In non convallis turpis. Donec sit amet enim in erat vulputate varius. Suspendisse condimentum, leo vitae efficitur dapibus, dolor tellus volutpat nibh, tristique sollicitudin mauris nisi pellentesque felis. Mauris condimentum lectus arcu, id vestibulum lacus eleifend ac. Aenean consectetur sodales nisl, sed semper diam pretium a. Sed tristique est eleifend, convallis massa in, posuere lacus. Nam iaculis lectus eget nunc luctus bibendum non id metus. Sed at metus dui. Praesent gravida nisi suscipit malesuada posuere. Aliquam vel varius lacus. Etiam molestie.",
             "specs": {"dimensions": "60 x 80 x 4cm (H x W x D)"},
             "features": ["OLED", "4K"],
             "stock": 5
@@ -91,7 +91,7 @@
             "image": "tv2.jpg",
             "price": 550,
             "sku": "806117",
-            "description": "Suspendisse potenti. Etiam suscipit quam a consectetur pulvinar. Duis eu ligula nec lectus mollis scelerisque. Suspendisse facilisis nec lectus at pulvinar. Curabitur a tellus ex. Vivamus nec posuere sapien. Maecenas.",
+            "description": "Curabitur posuere nisl ac orci egestas dapibus. Vivamus posuere dapibus augue mattis molestie. Morbi eget pulvinar purus. Nullam ultrices leo nec vehicula tincidunt. Phasellus placerat arcu quam, id porttitor urna accumsan tristique. Ut purus enim, interdum at urna eu, malesuada vulputate ligula. Sed quis elit a felis ullamcorper mollis. Donec quis enim ac libero pulvinar bibendum a vitae velit. Donec nunc ante, faucibus non dui eget, sollicitudin lobortis mauris. In non convallis turpis. Donec sit amet enim in erat vulputate varius. Suspendisse condimentum, leo vitae efficitur dapibus, dolor tellus volutpat nibh, tristique sollicitudin mauris nisi pellentesque felis. Mauris condimentum lectus arcu, id vestibulum lacus eleifend ac. Aenean consectetur sodales nisl, sed semper diam pretium a. Sed tristique est eleifend, convallis massa in, posuere lacus. Nam iaculis lectus eget nunc luctus bibendum non id metus. Sed at metus dui. Praesent gravida nisi suscipit malesuada posuere. Aliquam vel varius lacus. Etiam molestie.",
             "specs": {"dimensions": "70 x 90 x 5cm (H x W x D)"},
             "features": ["Deep Black", "Smart TV"],
             "stock": 8
@@ -104,7 +104,7 @@
             "image": "tv3.jpg",
             "price": 269,
             "sku": "708623",
-            "description": "Suspendisse potenti. Etiam suscipit quam a consectetur pulvinar. Duis eu ligula nec lectus mollis scelerisque. Suspendisse facilisis nec lectus at pulvinar. Curabitur a tellus ex. Vivamus nec posuere sapien. Maecenas.",
+            "description": "Curabitur posuere nisl ac orci egestas dapibus. Vivamus posuere dapibus augue mattis molestie. Morbi eget pulvinar purus. Nullam ultrices leo nec vehicula tincidunt. Phasellus placerat arcu quam, id porttitor urna accumsan tristique. Ut purus enim, interdum at urna eu, malesuada vulputate ligula. Sed quis elit a felis ullamcorper mollis. Donec quis enim ac libero pulvinar bibendum a vitae velit. Donec nunc ante, faucibus non dui eget, sollicitudin lobortis mauris. In non convallis turpis. Donec sit amet enim in erat vulputate varius. Suspendisse condimentum, leo vitae efficitur dapibus, dolor tellus volutpat nibh, tristique sollicitudin mauris nisi pellentesque felis. Mauris condimentum lectus arcu, id vestibulum lacus eleifend ac. Aenean consectetur sodales nisl, sed semper diam pretium a. Sed tristique est eleifend, convallis massa in, posuere lacus. Nam iaculis lectus eget nunc luctus bibendum non id metus. Sed at metus dui. Praesent gravida nisi suscipit malesuada posuere. Aliquam vel varius lacus. Etiam molestie.",
             "specs": {"dimensions": "40 x 60 x 4cm (H x W x D)"},
             "features": ["OLED", "Full HD"],
             "stock": 5
