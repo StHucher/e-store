@@ -1,23 +1,20 @@
-import React, { createContext } from "react";
+import React, { createContext, useReducer } from "react";
+import { CartReducer } from "./cartReducer";
 
 export const CartContext = createContext();
 
 const initialState = { cartItems: []}
 
-/**
- * React context provider for the cart state.
- *
- * @returns {JSX.Element} The cart context provider.
- */
 const CartContextProvider =({children}) => {
+    const [state, dispatch] = useReducer(CartReducer, initialState);
 
-    const addProduct = (payLoad) => {
-        debugger;
+    const addProduct = (payload) => {
+        dispatch({ type: "ADD", payload });
     }
 
     const contextValues = {
         addProduct,
-        ...initialState
+        ...state
     }
 
     return (
