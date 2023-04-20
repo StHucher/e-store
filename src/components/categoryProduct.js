@@ -5,32 +5,32 @@ import styled from "styled-components";
 
 
 
-const CategoryProduct = ({id, title, image, specs, features, price, stock}) => {
+const CategoryProduct = ({ id, title, image, specs, features, price, stock }) => {
     const navigate = useNavigate();
 
     return (
         <article>
-                <ProductTitle>
-                    <Link to={`products/${id}`}>{title}</Link>
-                </ProductTitle>
+            <ProductTitle>
+                <Link to={`/products/${id}`}>{title}</Link>
+            </ProductTitle>
 
-             <figure>
+            <figure>
                 <ProductImageContainer>
-                    <ProductImageContainerImage src={`/assets/${image}`} alt={title}/>
+                    <ProductImageContainerImage src={`/assets/${image}`} alt={title} />
                 </ProductImageContainer>
-             </figure>
+            </figure>
 
-             <aside>
+            <aside>
                 <ProductInfo>
                     <ProductInfoHeader>Dimensions</ProductInfoHeader>
                     <label>{specs.dimensions}</label>
                 </ProductInfo>
 
                 {specs.capacity &&
-                <ProductInfo>
-                    <ProductInfoHeader>Capacity</ProductInfoHeader>
-                    <label>{specs.capacity}</label>
-                </ProductInfo>
+                    <ProductInfo>
+                        <ProductInfoHeader>Capacity</ProductInfoHeader>
+                        <label>{specs.capacity}</label>
+                    </ProductInfo>
                 }
 
                 <ProductInfo>
@@ -41,9 +41,9 @@ const CategoryProduct = ({id, title, image, specs, features, price, stock}) => {
                         })}
                     </ul>
                 </ProductInfo>
-             </aside>
+            </aside>
 
-             <aside className="category-product-finance">
+            <aside className="category-product-finance">
                 <ProductInfoFinancePrice>
                     &euro;{price}
                 </ProductInfoFinancePrice>
@@ -54,10 +54,10 @@ const CategoryProduct = ({id, title, image, specs, features, price, stock}) => {
                 </ProductInfoStock>
 
                 <ProductInfoAction>
-                    <ProductInfoActionButton onClick={() => navigate(`products/${id}`)}>View Product</ProductInfoActionButton>
+                    <ProductInfoActionButton onClick={() => navigate(`/products/${id}`)}>View Product</ProductInfoActionButton>
                     <ProductInfoActionButton>Add to Basket</ProductInfoActionButton>
-                </ProductInfoAction>                
-             </aside>
+                </ProductInfoAction>
+            </aside>
         </article>
        
     )
