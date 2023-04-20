@@ -10,8 +10,18 @@ const initialState = { cartItems: []}
  * @returns {JSX.Element} The cart context provider.
  */
 const CartContextProvider =({children}) => {
+
+    const addProduct = (payLoad) => {
+        debugger;
+    }
+
+    const contextValues = {
+        addProduct,
+        ...initialState
+    }
+
     return (
-        <CartContext.Provider value={initialState}>
+        <CartContext.Provider value={contextValues}>
             {children}
         </CartContext.Provider>
     )
