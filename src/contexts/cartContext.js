@@ -8,6 +8,7 @@ const initialState = { cartItems: []}
 const CartContextProvider =({children}) => {
     const [state, dispatch] = useReducer(CartReducer, initialState);
 
+// payload = {id, title, price} il provient de categoryProduct.js
     const addProduct = (payload) => {
         dispatch({ type: "ADD", payload });
     }
