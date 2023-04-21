@@ -9,6 +9,7 @@ export const CartReducer = (state, action) => {
 
     switch (action.type) {
         case "ADD":
+        case "INCQTY":
             
             if (index === -1) {
                 state.cartItems.push({...action.payload, quantity:1});
@@ -29,14 +30,10 @@ export const CartReducer = (state, action) => {
                 state.cartItems[index].quantity--;
             }
             break;
-
-        case "INCQTY":
-            if (index > -1) {
-                state.cartItems[index].quantity++;
-            }
-            break;
-
         
+        case "CLEAR":
+            state.cartItems = [];
+            break;
 
         default:
     }
